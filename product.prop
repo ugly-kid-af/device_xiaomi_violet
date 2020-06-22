@@ -73,6 +73,9 @@ ril.subscription.types=RUIM
 # System Server
 arm64.memtag.process.system_server=off
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # Time
 persist.vendor.delta_time.enable=true
 
