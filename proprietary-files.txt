@@ -443,6 +443,11 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|188222f7cda270cad18757cf59710978f8657105
 vendor/lib64/libdpmqmihal.so|84dad3cd086791473878b353ef5aef6b6d495137
 
+# Dirac - from Xiaomi
+vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
+vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+
 # DRM - from davinci-user 11 RKQ1.200826.002 20.12.26 release-keys
 vendor/bin/qseecomd|41d31b001430c9e707eb4fdec5f409468b9183b9
 vendor/etc/gpfspath_oem_config.xml|7aeade35b0bbe27530f6aca8c1ed5192a7acf59d
