@@ -10,6 +10,11 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common Pixel Experience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Inherit from custom vendor
+$(call inherit-product, vendor/ANXCamera/config.mk)
+
+# Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
 IS_PHONE := true
