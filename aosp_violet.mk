@@ -18,6 +18,8 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_FACE_UNLOCK_SUPPORTED = true
 
 # Device identifier. This must come after all inclusions.
