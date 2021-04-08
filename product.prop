@@ -65,7 +65,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # PixelPlusUI OFFICIAL
 ro.ppui.device_name=Redmi Note 7 Pro
-ro.ppui.version=3.3
-ro.ppui.version_code=Tanzanite
+ro.ppui.version=3.4
+ro.ppui.version_code=Onyx
 ro.ppui.is_official=true
 ro.ppui.maintainer_name=Saurav
