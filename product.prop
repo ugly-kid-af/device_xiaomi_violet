@@ -32,6 +32,9 @@ persist.sys.fuse.passthrough.enable=true
 # GBoard
 ro.com.google.ime.kb_pad_port_b=1
 
+# Display
+ro.sf.lcd_density=420
+
 # Graphics
 debug.renderengine.backend=skiaglthreaded
 debug.cpurend.vsync=false
