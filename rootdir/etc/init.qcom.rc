@@ -488,6 +488,10 @@ on property:persist.vendor.ssr.enable_ramdumps=1 && property:ro.boot.mode!=charg
 on property:sys.boot_completed=1
     setprop vendor.setup.power 1
 
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
+
     # USB Fast Charge
     write /sys/kernel/fast_charge/force_fast_charge 1
 
