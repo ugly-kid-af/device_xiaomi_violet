@@ -17,6 +17,8 @@ $(call inherit-product, vendor/ANXCamera/config.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
