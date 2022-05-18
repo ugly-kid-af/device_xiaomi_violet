@@ -85,3 +85,7 @@ persist.vendor.delta_time.enable=true
 # Wireless display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Elixir Stuff
+ro.elixir.maintainer=Saurav
+org.elixir.device=Redmi Note 7 Pro
